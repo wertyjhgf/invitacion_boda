@@ -1,0 +1,157 @@
+.fs-55 {
+    font-size: 55px;
+}
+.fs-40 {
+    font-size: 55px;
+}
+
+.fs-80 {
+    font-size: 80px;
+}
+p{
+    margin-bottom: 0px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.fondo-negro{
+   background: black; 
+}
+.border-1{
+    border: 1px solid black;
+    width: 50%;
+}
+.border-regalos{
+    border: 1px solid black;
+}
+
+
+.notica-container {
+    background: black;
+    text-align: center;
+    color: white;
+}
+
+.great-vibes {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lora {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    ;
+}
+
+p {
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.line-through {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.line-through::before,
+.line-through::after {
+    content: '';
+    flex: 1;
+    height: 2px;
+    background: black;
+    /* Cambia el color si lo deseas */
+}
+
+.line-through2 {
+    position: relative;
+    display: inline-block;
+}
+
+.line-through2::after {
+    content: '';
+    position: absolute;
+    bottom: 45px;
+    /* Espacio entre el texto y la línea */
+    left: 110%;
+    width: 120%;
+    height: 2px;
+    /* Grosor de la línea */
+    background: white;
+    /* Cambia el color si lo deseas */
+}
+.line-through3 {
+    position: relative;
+    display: inline-block;
+}
+
+.line-through3::after {
+    content: '';
+    position: absolute;
+    bottom: 45px;
+    /* Espacio entre el texto y la línea */
+    left: -90%;
+    width: 80%;
+    height: 2px;
+    /* Grosor de la línea */
+    background: white;
+    /* Cambia el color si lo deseas */
+}
+
+.titulo-img-container {
+    position: relative;
+}
+
+.alis,
+.titulo-Y,
+.david {
+    position: absolute;
+}
+
+.alis {
+    top: 35%;
+    left: 5%;
+}
+
+.titulo-Y {
+    top: 55%;
+    left: 35%;
+}
+
+.david {
+    bottom: 5%;
+    right: 10%;
+}
+
+.rym-container{
+    border-bottom: 1px solid black;
+    position: relative;
+    width: 89%;
+}
+
+
+.bi-heart-fill{
+    position: absolute;
+    bottom: -25%;
+    left: 46%;
+}
+.dia-container{
+    background: black;
+}
