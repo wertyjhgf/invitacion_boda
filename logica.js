@@ -1,16 +1,16 @@
 //Para abrir nueva venta
-if (window.innerWidth > 575) {
-    // Abre una nueva ventana con dimensiones 575x575 y carga el contenido de la página actual
-    const nuevaVentana = window.open("", "_blank", "width=425,height=700");
+// if (window.innerWidth > 575) {
+//     // Abre una nueva ventana con dimensiones 575x575 y carga el contenido de la página actual
+//     const nuevaVentana = window.open("", "_blank", "width=425,height=700");
 
-    if (nuevaVentana) {
-        // Inserta el contenido de la página actual en la nueva ventana
-        nuevaVentana.document.write(document.documentElement.outerHTML);
-        nuevaVentana.document.close(); // Finaliza la escritura para que el contenido se renderice
-    } else {
-        console.warn("No se pudo abrir la nueva ventana. Verifica los bloqueadores de ventanas emergentes.");
-    }
-}
+//     if (nuevaVentana) {
+//         // Inserta el contenido de la página actual en la nueva ventana
+//         nuevaVentana.document.write(document.documentElement.outerHTML);
+//         nuevaVentana.document.close(); // Finaliza la escritura para que el contenido se renderice
+//     } else {
+//         console.warn("No se pudo abrir la nueva ventana. Verifica los bloqueadores de ventanas emergentes.");
+//     }
+// }
 
  // Fecha objetivo
  const fechaObjetivo = new Date("2025-01-11T16:30:00");
