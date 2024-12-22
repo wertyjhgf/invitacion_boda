@@ -21,6 +21,9 @@ p{
 a{
     font-size: 18px;
 }
+.bg-black{
+    background: dark;
+}
 
 .bg-white{
     background: white;
